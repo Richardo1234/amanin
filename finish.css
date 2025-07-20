@@ -303,9 +303,10 @@ body {
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   width: 100%;
-  padding: 20px;
+  /* padding: 20px; */
   position: relative;
   margin-bottom: 20px;
+  /* margin-left: 20px; */
 }
 
 .slider::-webkit-scrollbar {
@@ -566,6 +567,13 @@ body {
   .slider-arrow.left,
   .slider-arrow.right {
     display: none;
+  }
+  .slider-arrow.left-1,
+  .slider-arrow.right-1 {
+    display: none;
+  }
+  .slider {
+    margin-left: 20px;
   }
 }
 
@@ -882,7 +890,7 @@ body {
     font-weight: 700;
     line-height: 110%;
     letter-spacing: 0%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 32px;
     margin-left: -5px;
   }
@@ -897,7 +905,7 @@ body {
     display: flex;
     /* gap: 24px; */
     max-width: 100%;
-    margin-left: -20px;
+    margin-left: 0px;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 
